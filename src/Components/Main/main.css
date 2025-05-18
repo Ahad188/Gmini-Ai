@@ -66,3 +66,38 @@
 .card:hover{
      background-color: #dfe4df;
 }
+/* main bottom */
+.main-bottom{
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     max-width: 900px;
+     margin: auto;
+     padding: 0 20px;
+}
+.search-box{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap:20px;
+     padding: 10px 20px;
+     border-radius: 50px;
+     background-color: #f0f4f9;
+}
+.search-box img{
+     width: 24px;
+     cursor: pointer;
+}
+.search-box input{
+     flex: 1;
+     outline: none;
+     border: none;
+     background-color: transparent;
+     padding: 8px;
+     font-size: 18px;
+}
+.search-box div{
+     display: flex;
+     align-items: center;
+     gap: 15px;
+}

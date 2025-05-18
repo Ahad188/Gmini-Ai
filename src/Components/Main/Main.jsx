@@ -3,6 +3,9 @@ import compass from "../../assets/compass_icon.png"
 import bulb from "../../assets/bulb_icon.png"
 import message from "../../assets/message_icon.png"
 import code from "../../assets/code_icon.png"
+import gallery from "../../assets/gallery_icon.png"
+import mic from "../../assets/mic_icon.png"
+import send from "../../assets/send_icon.png"
 import './main.css'
 const Main = () => {
      return (
@@ -34,6 +37,17 @@ const Main = () => {
                                <img src={code} alt="" />
                          </div>
                          
+                    </div>
+                    <div className="main-bottom">
+                         <div className="search-box">
+                                <input type="text" placeholder='Enter prompt message' />
+                                <div>
+                                   <img src={gallery} alt="" />
+                                   <img src={mic} alt="" />
+                                   <img src={send} alt="" />
+                                </div>
+                         </div>
+                         <p className="bottom-info">Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini Apps</p>
                     </div>
                </div>
           </div>
