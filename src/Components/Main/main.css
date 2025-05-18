@@ -101,3 +101,10 @@
      align-items: center;
      gap: 15px;
 }
+/* bottom info */
+.bottom-info{
+     font-size: 13px;
+     text-align: center;
+     margin: 15px auto;
+     font-weight: 300px;
+}
